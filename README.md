@@ -12,6 +12,12 @@ store-locations.csv, print the matching store address, as well as the distance t
 - If there are more than 1 shortest then it returns the first store found from the csv file.
 - To calculate distance, it uses Haversine formula - Ref: https://en.wikipedia.org/wiki/Haversine_formula
 
+# Setup:
+- Clone this repo locally.
+- Install gem geokit using `gem install geokit` Ref: https://github.com/geokit/geokit
+- Make sure Ruby is available and its version is 2.6.3 or above. To check Ruby version `ruby -v`
+- Run program as detailed in Usage section below.
+
 # Usage:
 ```
 ./find_store --address="<address>"
